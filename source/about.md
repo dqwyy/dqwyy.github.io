@@ -14,4 +14,4 @@ I hope that you will enjoy my blog. Have fun.　:D
 ## Contact
 If you would like to make friends with me, you could contact me according to what the page footer shows. It's my pleasure to be your friend.　:D
 * Email: `dqwyy1997#gmail.com`　※Please replace `#` with `@`.
-* IRC Channel: [#dqwyy](irc://irc.freenode.net/dqwyy)@freenode　※My IRC nickname is `dqwyy`.
+* IRC Channel: [#dqwyy@freenode](irc://irc.freenode.net/dqwyy)　※My IRC nickname is `dqwyy`.
