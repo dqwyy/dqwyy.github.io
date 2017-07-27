@@ -79,4 +79,4 @@ theme: anodyne
 deploy:
   type: git
   repo: https://github.com/dqwyy/dqwyy.github.io.git
-  branch: gh-pages
+  branch: master
