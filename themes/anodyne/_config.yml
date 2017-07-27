@@ -1,0 +1,52 @@
+# Logo
+logo_image_source: http://img.vim-cn.com/3d/582f591ee427ddc2fe26e1b6381b99bd00f60b.jpg
+
+# Index Page
+index_banner_text: Welcome to dqwyy's blog.
+index_banner_text_secondary: 苟利國家生死以，豈因禍福避趨之。
+index_font_awesome_icon_css: fa-flask
+
+# Header
+menu:
+  Home: /
+  Archives: /archives
+  About: /about.html
+#  Contact: /contact.html
+
+# Post
+default_post_title: Untitled
+default_post_icon: fa-file-text-o
+
+# Archive Date Format
+archive_date_format: MMMM Do, YYYY
+archive_font_awesome_icon_css: fa-folder-open
+
+# About Widget
+about_widget_avatar_url: http://img.vim-cn.com/3d/582f591ee427ddc2fe26e1b6381b99bd00f60b.jpg
+about_widget_text: "Name: dqwyy<br>Gender: Male (♂)<br>Location: Guangdong, P.R.China (🇨🇳)<br>Education: South China Normal University<br>Tags: otaku / Wikipedian / chemistry<br><a class=\"link dim white\" href=\"/about.html\">More detail...</a>"
+
+# Comments.
+comments:
+  # Disqus comments
+  disqus_shortname: dqwyy
+
+# Google Analytics Tracking ID
+google_analytics: UA-103287316-1
+
+# Social Media Platforms
+social_platforms:
+  - url: https://zh.wikipedia.org/wiki/User:Dqwyy
+    fa_icon: fa-wikipedia-w
+  - url: https://twitter.com/dqwyy1997
+    fa_icon: fa-twitter
+  - url: mailto:dqwyy1997@gmail.com
+    fa_icon: fa-envelope
+  - url: https://www.facebook.com/dqwyy
+    fa_icon: fa-facebook-official
+  - url: https://github.com/dqwyy
+    fa_icon: fa-github
+#  - url: /#
+#    fa_icon: fa-rss
+
+# Footer about
+footer_about: "<big><big>By dqwyy<br>Articles are released under <a class=\"link dim white\" target=_blank href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA 4.0</a></big></big><br><br>Powered by <a class=\"link dim white\" target=_blank href=\"https://hexo.io/\">Hexo</a> & <a class=\"link dim white\" target=_blank href=\"https://pages.github.com/\">GitHub Pages</a> | Theme: <a class=\"link dim white\" target=_blank href=\"https://github.com/klugjo/hexo-theme-anodyne\">anodyne</a> by <a class=\"link dim white\" target=_blank href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
