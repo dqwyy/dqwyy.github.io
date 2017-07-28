@@ -1,5 +1,5 @@
 # Logo
-logo_image_source: http://img.vim-cn.com/3d/582f591ee427ddc2fe26e1b6381b99bd00f60b.jpg
+logo_image_source: https://i.loli.net/2017/07/28/597b38a758396.jpg
 
 # Index Page
 index_banner_text: Welcome to dqwyy's blog.
@@ -22,7 +22,7 @@ archive_date_format: MMMM Do, YYYY
 archive_font_awesome_icon_css: fa-folder-open
 
 # About Widget
-about_widget_avatar_url: http://img.vim-cn.com/3d/582f591ee427ddc2fe26e1b6381b99bd00f60b.jpg
+about_widget_avatar_url: https://i.loli.net/2017/07/28/597b38a758396.jpg
 about_widget_text: "Name: dqwyy<br>Gender: Male (♂)<br>Location: Guangdong, P.R.China (🇨🇳)<br>Education: South China Normal University<br>Tags: otaku / Wikipedian / chemistry<br><a class=\"link dim white\" href=\"/about.html\">More detail...</a>"
 
 # Comments.
@@ -45,6 +45,8 @@ social_platforms:
     fa_icon: fa-facebook-official
   - url: https://github.com/dqwyy
     fa_icon: fa-github
+  - url: https://www.quora.com/profile/Wang-Yang-Ying
+    fa_icon: fa-quora 
 #  - url: /#
 #    fa_icon: fa-rss
 
