@@ -33,7 +33,7 @@ I don't like the default theme landscape so I was looking for themes. Finally I 
 ```shell
 $ git clone https://github.com/klugjo/hexo-theme-anodyne themes/anodyne
 ```
-then delete the hidden `.git` folder. To customize the theme, I modified `%USERPROFILE%\Documents\GitHub\dqwyy.github.io\themes\anodyne\_config.yml`.
+then deleted the hidden `.git` folder. To customize the theme, I modified `%USERPROFILE%\Documents\GitHub\dqwyy.github.io\themes\anodyne\_config.yml`.
 
 ## Upload Codes
 Before uploading the codes to GitHub, I used GitHub for Windows to link the local repository to remote repository, which would generate a hidden `.git` folder. It is of great importance to put the codes in a branch other than `master`, as for me, it's `hexo`. Everytime I change files in local repository, I type these command under the `hexo` branch: (words behind `#` are comments)
