@@ -3,7 +3,7 @@ logo_image_source: https://i.loli.net/2017/07/28/597b38a758396.jpg
 
 # Index Page
 index_banner_text: Welcome to dqwyy's blog.
-index_banner_text_secondary: 初音ミクは僕の彼女ですよ！
+index_banner_text_secondary: 
 index_font_awesome_icon_css: fa-flask
 
 # Header
@@ -45,7 +45,7 @@ social_platforms:
     fa_icon: fa-facebook-official
   - url: https://github.com/dqwyy
     fa_icon: fa-github
-  - url: https://www.quora.com/profile/Dqwyy
+  - url: https://www.quora.com/profile/Wang-Yang-Ying
     fa_icon: fa-quora 
 #  - url: /#
 #    fa_icon: fa-rss
