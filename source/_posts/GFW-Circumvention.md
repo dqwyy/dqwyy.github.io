@@ -37,7 +37,7 @@ This website has alreadly been GFWed, it is not accessable without using a VPN.
 
 ### Purchasing Accounts
 * SScat
-Register link: <http://rbq.cat/?yqi=26865>
+Register link: <https://rbq.cat/index/register/>
 
 ### Build your own Accounts
 I don't know how to do that. Google will help. `:)`
