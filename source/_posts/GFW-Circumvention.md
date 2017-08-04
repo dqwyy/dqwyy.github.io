@@ -29,7 +29,7 @@ Shadowsocks is my favourate software. Accounts are neccessary. GitHub Link: <htt
 * [iShadow](http://ss.ishadowx.com/index.html)
 Alternate URL: <http://isx.yt/> & <http://isx.tn/>
 Send any text email to the following address to get the latest link: <admin@ishadowsocks.com>
-iShadow provides 9 free accounts for shadowsocks. All servers will be reset and change its password in 00:00, 6:00 and 12:00 (UTC+8) everyday. A Japan server is shown below as a QR Code.
+iShadow provides 9 free accounts for shadowsocks. All servers will be reset and change its password in 00:00, 6:00 and 12:00 (UTC+8) everyday. For example, a Japan server is shown below as a QR Code.
 ![Sorry, the picture doesn't measure to load because of GFW, please use a VPN first.](http://ss.ishadowx.com/img/qr/jpa.png "Japan-Linode1 Server, please scan this QR Code with your Shadowsocks client")
 
 * [Shadowsocks8](http://ss8.6gg6.net/)
