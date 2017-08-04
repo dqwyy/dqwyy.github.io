@@ -7,7 +7,7 @@ tags:
   - VPN
   - GFW
 date: 2017-08-04 17:02:16
-icon: 
+icon: fa-internet-explorer 
 ---
 Some websites like Google, Facebook, Twitter and so on are not accessable in Mainland China due to the GFW ([Great Firewall of China](https://en.wikipedia.org/wiki/Great_Firewall)). I am going to record some methods to circumvent the GFW here, which are what I recommend.
 
