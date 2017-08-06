@@ -65,16 +65,8 @@ DONE!
 ## To Do
 I am going to install more useful [plugins](https://hexo.io/plugins/) in the future.
 
-Well, once again:
-> Hello, <del>Sekai</del> World!
-
-![](http://image.wangchao.net.cn/baike/1267577209651.jpg "It is all Sekai's fault, not mine!")
-
 ## References
 [1] 阮一峰. [Git远程操作详解](http://www.ruanyifeng.com/blog/2014/06/git_remote.html). 阮一峰的网络日志. 2014-06-12. <small>(zh-CN)</small>
-
 [2] [Hexo Documentation](https://hexo.io/docs/). Hexo.
-
 [3] Mu Bit. [How to set up Free Blog using Hexo JS on Github](https://youtu.be/tEFKJeAtGqk?list=PL4IWl8w32SvV5p3TIXEDYUkH9ACtxkBdT). YouTube. 2016-10-01. <small>(en)</small>
-
 [4] 令狐葱. [手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/). 令狐葱@前端笔记. 2016-04-15. <small>(zh-CN)</small>
