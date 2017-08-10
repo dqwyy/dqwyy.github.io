@@ -11,7 +11,3 @@ icon: fa-hashtag
 ---
 <!-- toc -->
 IRC，英文全称是Internet Relay Chat，是一种比较传统的即时聊天方式。本
-## test
-
-### test2
-
