@@ -27,7 +27,7 @@ Windows Registry Editor Version 5.00
 "Segoe UI"="Microsoft JhengHei UI"
 ```
 
-I lauched this Registry file and then restart my computer. Then I realised that I didn't succeed. As the screenshots below shows, ome became SimSun, some became Japanese style font, some became tofu.
+I launched this Registry file and then restart my computer. Then I realised that I didn't succeed. As the screenshots below shows, ome became SimSun, some became Japanese style font, some became tofu.
 
 ![](https://i.loli.net/2017/08/12/598e9d1cbbd8b.png "SimSun")
 
