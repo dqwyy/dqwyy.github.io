@@ -9,10 +9,10 @@ tags:
 date: 2017-08-04 17:02:16
 icon: fa-internet-explorer 
 ---
-Some websites like Google, Facebook, Twitter and so on are not accessable in Mainland China due to the GFW ([Great Firewall of China](https://en.wikipedia.org/wiki/Great_Firewall). I am going to record some methods to circumvent the GFW here, which are what I recommend.
+Some websites like Google, Facebook, Twitter and so on are not accessable in Mainland China due to the GFW ([Great Firewall of China](https://en.wikipedia.org/wiki/Great_Firewall)\). I am going to record some methods to circumvent the GFW here, which are what I recommend.
 
 ## Modify Your hosts Files
-The computer file [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) is an operating system file that maps hostnames to IP addresses, whoes location is `%SystemRoot%\System32\drivers\etc\hosts` in Windows. DNS cache pollution, which is one of the GFW's tricks, could be circumvented by modifying the hosts files. However, GFW is dynamic, so hosts should be updated in time. Here are two related repos on GitHub. This method is totally free. But it doesn't work for every GFWed websites or all time.
+The computer file [hosts](https://en.wikipedia.org/wiki/Hosts_%28file%29) is an operating system file that maps hostnames to IP addresses, whoes location is `%SystemRoot%\System32\drivers\etc\hosts` in Windows. DNS cache pollution, which is one of the GFW's tricks, could be circumvented by modifying the hosts files. However, GFW is dynamic, so hosts should be updated in time. Here are two related repos on GitHub. This method is totally free. But it doesn't work for every GFWed websites or all time.
 
 * <https://github.com/racaljk/hosts>, IPv4 hosts, will NEVER support YouTube. Telegram Group: [@googlehosts](https://t.me/googlehosts)
 * <https://github.com/lennylxx/ipv6-hosts>, IPv6 hosts, supports YouTube.
