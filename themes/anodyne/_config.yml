@@ -18,12 +18,12 @@ default_post_title: Untitled
 default_post_icon: fa-file-text-o
 
 # Archive Date Format
-archive_date_format: MMMM Do, YYYY
+archive_date_format: MMMM, YYYY
 archive_font_awesome_icon_css: fa-folder-open
 
 # About Widget
 about_widget_avatar_url: https://i.loli.net/2017/07/28/597b38a758396.jpg
-about_widget_text: "Name: dqwyy<br>Gender: Male (♂)<br>Location: Guangdong, P.R.China (🇨🇳)<br>Education: South China Normal University<br>Tags: otaku / Wikipedian / chemistry<br><a class=\"link dim white\" href=\"/about.html\">More detail...</a>"
+about_widget_text: "Name: dqwyy<br>Gender: Male (♂)<br>Location: Guangdong, P.R.China (🇨🇳)<br><a class=\"link dim white\" href=\"/about.html\">More detail...</a>"
 
 # Comments.
 comments:
