@@ -14,7 +14,9 @@ Some websites like Google, Facebook, Twitter and so on are not accessable in Mai
 ## Modify Your hosts Files
 The computer file [hosts](https://en.wikipedia.org/wiki/Hosts_%28file%29) is an operating system file that maps hostnames to IP addresses, whoes location is `%SystemRoot%\System32\drivers\etc\hosts` in Windows. DNS cache pollution, which is one of the GFW's tricks, could be circumvented by modifying the hosts files. However, GFW is dynamic, so hosts should be updated in time. Here are two related repos on GitHub. This method is totally free. But it doesn't work for every GFWed websites or all time.
 
-* <https://github.com/racaljk/hosts>, IPv4 hosts, will NEVER support YouTube. Telegram Group: [@googlehosts](https://t.me/googlehosts)
+* <s><https://github.com/racaljk/hosts>, IPv4 hosts.</s> (This repo had stopped updating.)
+* <https://github.com/googlehosts/hosts> Telegram Group: [@googlehosts](https://t.me/googlehosts)
+* <https://github.com/sy618/hosts>
 * <https://github.com/lennylxx/ipv6-hosts>, IPv6 hosts, supports YouTube.
 
 ## Lantern
