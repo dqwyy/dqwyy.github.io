@@ -115,24 +115,24 @@ icon: fa-flask
 
 ## 参考文献
 
-[1] 才磊. 我所参与的新元素的中文定名[J]. 中国科技史杂志, 2016 (2): 145-152. <a href="#ref1" id="fn1">&nbsp;↑</a>
-[2] 周兴喜. 化学元素命名溯源[J]. 化学教育, 1989, 10(4): 56-58, 62. <a href="#ref2" id="fn2">&nbsp;↑</a>
-[3] 汪辉亮(编). 化学专业英语[M]. 北京: 北京师范大学出版社, 2011.2 (2015.2重印): P21-33. ISBN 978-7-303-12100-7. <a href="#ref3.1" id="fn3">&nbsp;↑</a><a href="#ref3.2" id="fn3">&nbsp;↑</a><a href="#ref3.3" id="fn3">&nbsp;↑</a>
-[4] Per Enghag. The Elements- Origin, Occurence, Discovery And Names. Encyclopedia of the Elements: Technical Data - History - Processing - Applications. John Wiley & Sons. 8 January 2008: 55–78. ISBN 978-3-527-61234-5.
-[5] 汪朝阳, 肖信. 化学史人文课程（第二版）[M]. 北京: 科学出版社, 2015.1: P53-54. ISBN 978-7-03-042709-0. <a href="#ref5" id="fn5">&nbsp;↑</a>
-[6] 郭保章. 化学命名法和化学符号的由来[J]. 化学教育, 1991, 12(4): 58-62. <a href="#ref6" id="fn6">&nbsp;↑</a>
-[7] 周定国. 以地名命名的元素名称浅谈[J]. 科技术语研究, 2005, 7(1): 60-64. <a href="#ref7" id="fn7">&nbsp;↑</a>
-[8] 张纶. 化学元素中文命名的由来[J]. 江苏教育, 1981, 8: 41-42. <a href="#ref8" id="fn8">&nbsp;↑</a><a href="#ref8.2" id="fn8">&nbsp;↑</a>
-[9] 何涓. 化学元素名称汉译史研究述评[J]. 自然科学史研究, 2004, 23(2): 155-167. <a href="#ref9.1" id="fn9">&nbsp;↑</a><a href="#ref9.2" id="fn9">&nbsp;↑</a>
-[10] 张培富, 夏文华. 晚清民国时期化学元素用字的文化观照[J]. 科学技术与辩证法, 2007, 24(6): 92-95. <a href="#ref10" id="fn10">&nbsp;↑</a>
+[1] 才磊. 我所参与的新元素的中文定名[J]. 中国科技史杂志, 2016 (2): 145-152. <a href="#ref1" id="fn1">&nbsp;↑</a>  
+[2] 周兴喜. 化学元素命名溯源[J]. 化学教育, 1989, 10(4): 56-58, 62. <a href="#ref2" id="fn2">&nbsp;↑</a>  
+[3] 汪辉亮(编). 化学专业英语[M]. 北京: 北京师范大学出版社, 2011.2 (2015.2重印): P21-33. ISBN 978-7-303-12100-7. <a href="#ref3.1" id="fn3">&nbsp;↑</a><a href="#ref3.2" id="fn3">&nbsp;↑</a><a href="#ref3.3" id="fn3">&nbsp;↑</a>  
+[4] Per Enghag. The Elements- Origin, Occurence, Discovery And Names. Encyclopedia of the Elements: Technical Data - History - Processing - Applications. John Wiley & Sons. 8 January 2008: 55–78. ISBN 978-3-527-61234-5.  
+[5] 汪朝阳, 肖信. 化学史人文课程（第二版）[M]. 北京: 科学出版社, 2015.1: P53-54. ISBN 978-7-03-042709-0. <a href="#ref5" id="fn5">&nbsp;↑</a>  
+[6] 郭保章. 化学命名法和化学符号的由来[J]. 化学教育, 1991, 12(4): 58-62. <a href="#ref6" id="fn6">&nbsp;↑</a>  
+[7] 周定国. 以地名命名的元素名称浅谈[J]. 科技术语研究, 2005, 7(1): 60-64. <a href="#ref7" id="fn7">&nbsp;↑</a>  
+[8] 张纶. 化学元素中文命名的由来[J]. 江苏教育, 1981, 8: 41-42. <a href="#ref8" id="fn8">&nbsp;↑</a><a href="#ref8.2" id="fn8">&nbsp;↑</a>  
+[9] 何涓. 化学元素名称汉译史研究述评[J]. 自然科学史研究, 2004, 23(2): 155-167. <a href="#ref9.1" id="fn9">&nbsp;↑</a><a href="#ref9.2" id="fn9">&nbsp;↑</a>  
+[10] 张培富, 夏文华. 晚清民国时期化学元素用字的文化观照[J]. 科学技术与辩证法, 2007, 24(6): 92-95. <a href="#ref10" id="fn10">&nbsp;↑</a>  
 [11] 鲁迅. 且介亭杂文[M]. 北京: 人民文学出版社，2000.82. <a href="#ref11" id="fn11">&nbsp;↑</a>
-[12] 杨秀蕴. 海峡两岸在化学元素命名上的区别[J]. 化学教育, 1991, 12(4): 58-58. <a href="#ref12" id="fn12">&nbsp;↑</a>
-[13] 2012 日本化学会 原子量専門委員会. [原子量表（2012）](http://www.chemistry.or.jp/international/atomictable2012.pdf)<small>(PDF)</small>. <a href="#ref13" id="fn13">&nbsp;↑</a>
-[14] [IUPAC is naming the four new elements nihonium, moscovium, tennessine, and oganesson](https://iupac.org/iupac-is-naming-the-four-new-elements-nihonium-moscovium-tennessine-and-oganesson). IUPAC. 2016-06-08. <a href="#ref14" id="fn14">&nbsp;↑</a>
-[15] Barber, Robert C.; Karol, Paul J.; Nakahara, Hiromichi; Vardaci, Emanuele; Vogt, Erich W. Discovery of the elements with atomic numbers greater than or equal to 113 (IUPAC Technical Report). Pure and Applied Chemistry. 2011: 1. doi:10.1351/PAC-REP-10-05-01. <a href="#ref15" id="fn15">&nbsp;↑</a>
-[16] ['Japonium' said to be heaviest element](http://www.japantimes.co.jp/2004/09/30/announcements/japonium-said-to-be-heaviest-element/#.VpCLIDafPVo. The Japan Times). 2004-09-30. <a href="#ref16" id="fn16">&nbsp;↑</a>
-[17] [IUPAC Announces the Names of the Elements 113, 115, 117, and 118](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118). IUPAC. 2016-11-30.
-[18] [新元素113号、115号、117号、118号的中文定名征集](http://www.chemsoc.org.cn/info.asp?gid=195). 中国化学会. 2016-11-21. <a href="#ref18" id="fn18">&nbsp;↑</a>
+[12] 杨秀蕴. 海峡两岸在化学元素命名上的区别[J]. 化学教育, 1991, 12(4): 58-58. <a href="#ref12" id="fn12">&nbsp;↑</a>  
+[13] 2012 日本化学会 原子量専門委員会. [原子量表（2012）](http://www.chemistry.or.jp/international/atomictable2012.pdf)<small>(PDF)</small>. <a href="#ref13" id="fn13">&nbsp;↑</a>  
+[14] [IUPAC is naming the four new elements nihonium, moscovium, tennessine, and oganesson](https://iupac.org/iupac-is-naming-the-four-new-elements-nihonium-moscovium-tennessine-and-oganesson). IUPAC. 2016-06-08. <a href="#ref14" id="fn14">&nbsp;↑</a>  
+[15] Barber, Robert C.; Karol, Paul J.; Nakahara, Hiromichi; Vardaci, Emanuele; Vogt, Erich W. Discovery of the elements with atomic numbers greater than or equal to 113 (IUPAC Technical Report). Pure and Applied Chemistry. 2011: 1. doi:10.1351/PAC-REP-10-05-01. <a href="#ref15" id="fn15">&nbsp;↑</a>  
+[16] ['Japonium' said to be heaviest element](http://www.japantimes.co.jp/2004/09/30/announcements/japonium-said-to-be-heaviest-element/#.VpCLIDafPVo. The Japan Times). 2004-09-30. <a href="#ref16" id="fn16">&nbsp;↑</a>  
+[17] [IUPAC Announces the Names of the Elements 113, 115, 117, and 118](https://iupac.org/iupac-announces-the-names-of-the-elements-113-115-117-and-118). IUPAC. 2016-11-30.  
+[18] [新元素113号、115号、117号、118号的中文定名征集](http://www.chemsoc.org.cn/info.asp?gid=195). 中国化学会. 2016-11-21. <a href="#ref18" id="fn18">&nbsp;↑</a>  
 
 ----
 
