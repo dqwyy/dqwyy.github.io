@@ -6,8 +6,6 @@ categories:
 - IT
 tags:
 - zh-CN
-- SCNU
-- proxy
 ---
 > **注意**：本文已经过时，华南师范大学已改用其他的VPN服务，并停用旧的VPN服务。请通过<http://lib.scnu.edu.cn/resource/entrance/>登录校园网帐号来使用VPN。由于新的VPN操作简单，甚至不用下载客户端，因此在下不再另写文章介绍。
 
