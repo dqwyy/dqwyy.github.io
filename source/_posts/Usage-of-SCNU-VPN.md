@@ -1,5 +1,5 @@
 ---
-title: [已过时] 华南师范大学学生在校外使用华师VPN下载中国知网文献教程
+title: 已过时-华南师范大学学生在校外使用华师VPN下载中国知网文献教程
 date: 2017-07-27 21:27:17
 icon: fa-internet-explorer 
 categories:
