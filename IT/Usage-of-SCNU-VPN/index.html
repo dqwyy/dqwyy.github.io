@@ -10,9 +10,9 @@
 
     <!--Description-->
     
-        <meta name="description" content="Hello World!
+        <meta name="description" content="注意：本文已经过时，华南师范大学已改用其他的VPN服务，并停用旧的VPN服务。请通过http://lib.scnu.edu.cn/resource/entrance/登录校园网帐号来使用VPN。由于新的VPN操作简单，甚至不用下载客户端，因此在下不再另写文章介绍。
 
-This is the first article written by me on this blog. I will show you how I built the blog. It took me several days to practice using He">
+背景很多高校因为购买的中国知网的">
     
 
     <!--Author-->
@@ -22,7 +22,7 @@ This is the first article written by me on this blog. I will show you how I buil
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Hello World! — How I Built This Blog"/>
+        <meta property="og:title" content="已过时-华南师范大学学生在校外使用华师VPN下载中国知网文献教程"/>
     
 
     <!--Open Graph Description-->
@@ -44,7 +44,7 @@ This is the first article written by me on this blog. I will show you how I buil
 
     <!-- Title -->
     
-    <title>Hello World! — How I Built This Blog - dqwyy&#39;s blog</title>
+    <title>已过时-华南师范大学学生在校外使用华师VPN下载中国知网文献教程 - dqwyy&#39;s blog</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
@@ -117,14 +117,14 @@ This is the first article written by me on this blog. I will show you how I buil
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">Hello World! — How I Built This Blog</h1>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">已过时-华南师范大学学生在校外使用华师VPN下载中国知网文献教程</h1>
             <p class="f4 fw3 pab-100px tc tc-m tl-ns">July 27th, 2017</p>
         </div>
     </div>
 
     <!-- Icon -->
     <div class="relative w-100 mw8 center white dn dn-m db-ns">
-        <i class="header-icon fa fa-github"></i>
+        <i class="header-icon fa fa-internet-explorer"></i>
     </div>
 </div>
 
@@ -138,32 +138,38 @@ This is the first article written by me on this blog. I will show you how I buil
                     
                         <div class="tags-container-vertical">
                             <div class="tags-sub-container">
-                                <a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                                <a class="fw3 ph1 dib" href="/tags/zh-CN/">#zh-CN</a>
                             </div>
                         </div>
                     
 
                     <!-- Main Post Content -->
                     <blockquote>
-<p>Hello World!</p>
+<p><strong>注意</strong>：本文已经过时，华南师范大学已改用其他的VPN服务，并停用旧的VPN服务。请通过<a href="http://lib.scnu.edu.cn/resource/entrance/" target="_blank" rel="external">http://lib.scnu.edu.cn/resource/entrance/</a>登录校园网帐号来使用VPN。由于新的VPN操作简单，甚至不用下载客户端，因此在下不再另写文章介绍。</p>
 </blockquote>
-<p>This is the first article written by me on this blog. I will show you how I built the blog. It took me several days to practice using Hexo and <a href="https://pages.github.com/" target="_blank" rel="external">GitHub Pages</a>. It is not a easy job for me since I know little about programming. But I will share what I have done step by step with you if you are a greenhand like me and that may help you a little. At the beginning, there are two blog software for me to choose, <a href="https://jekyllrb.com/" target="_blank" rel="external">Jekyll</a> and <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>. Finally, I decided to adopt Hexo.</p>
-<h2 id="preparation"><a href="#Preparation" class="headerlink" title="Preparation"></a>Preparation</h2><p>Hexo requires <a href="https://git-scm.com/" target="_blank" rel="external">Git</a> and <a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a>. For Git, I installed GitHub for Windows. Then use Git Shell to install Hexo. By the way, my OS is MS Windows 8.1. GitHub for Windows will creat a folder named <code>GitHub</code> in your default <code>Documents</code> folder automatically. What you should do first is to launch Git Shell. You will see these:<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">Windows PowerShell</div><div class="line">Copyright (C) 2014 Microsoft Corporation. All rights reserved.</div><div class="line"></div><div class="line">~\Documents\GitHub&gt;</div></pre></td></tr></table></figure></p>
-<p>Just type <code>npm install hexo-cli -g</code> then press Enter. Wait for the installing of Hexo. Meanwwhile I created the repository named <code>dqwyy.github.io</code> on GitHub. After the installing of Hexo, I initialised Hexo in <code>%USERPROFILE%\Documents\GitHub\dqwyy.github.io\</code> by typing (exclude the <code>$</code> symbol, the same below)<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> hexo init %USERPROFILE%\Documents\GitHub\dqwyy.github.io\</div><div class="line"><span class="meta">$</span> cd %USERPROFILE%\Documents\GitHub\dqwyy.github.io\</div><div class="line"><span class="meta">$</span> npm install</div></pre></td></tr></table></figure></p>
-<h2 id="beautify"><a href="#Beautify" class="headerlink" title="Beautify"></a>Beautify</h2><p>I don’t like the default theme landscape so I was looking for themes. Finally I found <a href="https://github.com/klugjo/hexo-theme-anodyne" target="_blank" rel="external">anodyne</a>, the present theme of my blog. I installed it by typing<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> git clone https://github.com/klugjo/hexo-theme-anodyne themes/anodyne</div></pre></td></tr></table></figure></p>
-<p>then deleted the hidden <code>.git</code> folder. To customize the theme, I modified <code>%USERPROFILE%\Documents\GitHub\dqwyy.github.io\themes\anodyne\_config.yml</code>.</p>
-<h2 id="upload-codes"><a href="#Upload-Codes" class="headerlink" title="Upload Codes"></a>Upload Codes</h2><p>Before uploading the codes to GitHub, I used GitHub for Windows to link the local repository to remote repository, which would generate a hidden <code>.git</code> folder. It is of great importance to put the codes in a branch other than <code>master</code>, as for me, it’s <code>hexo</code>. Everytime I change files in local repository, I type these command under the <code>hexo</code> branch: (words behind <code>#</code> are comments)<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> git checkout hexo    # Switch to branch hexo.</div><div class="line"><span class="meta">$</span> git add --all    # preparation for commit.</div><div class="line"><span class="meta">$</span> git commit -m "message"</div><div class="line"><span class="meta">$</span> git push origin hexo    # ATTENTION: "hexo" here, not "master".</div></pre></td></tr></table></figure></p>
-<h2 id="deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p>Deploying is going to have the blog shown on <a href="https://dqwyy.github.io">https://dqwyy.github.io</a>, or the blog is shown on <a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> only. Firstly, modify <code>%USERPROFILE%\Documents\GitHub\dqwyy.github.io\_config.yml</code>.<br><figure class="highlight yml"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="comment"># Deployment</span></div><div class="line"><span class="comment">## Docs: https://hexo.io/docs/deployment.html</span></div><div class="line"><span class="attr">deploy:</span></div><div class="line"><span class="attr">  type:</span> <span class="string">git</span></div><div class="line"><span class="attr">  repo:</span> <span class="attr">https://github.com/dqwyy/dqwyy.github.io.git</span></div><div class="line"><span class="attr">  branch:</span> <span class="string">master</span></div></pre></td></tr></table></figure></p>
-<p>Then type these on the Git Shell:<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="meta">$</span> npm install hexo-deployer-git --save    # it's only neccessary at the first time.</div><div class="line"><span class="meta">$</span> hexo genarate    # or abbreviate to "hexo g"</div><div class="line"><span class="meta">$</span> hexo deploy    # or abbreviate to "hexo d"</div></pre></td></tr></table></figure></p>
-<p>DONE!</p>
-<h2 id="to-do"><a href="#To-Do" class="headerlink" title="To Do"></a>To Do</h2><p>I am going to install more useful <a href="https://hexo.io/plugins/" target="_blank" rel="external">plugins</a> in the future.</p>
-<h2 id="references"><a href="#References" class="headerlink" title="References"></a>References</h2><p>[1] 阮一峰. <a href="http://www.ruanyifeng.com/blog/2014/06/git_remote.html" target="_blank" rel="external">Git远程操作详解</a>. 阮一峰的网络日志. 2014-06-12. <small>(zh-CN)</small><br>[2] <a href="https://hexo.io/docs/" target="_blank" rel="external">Hexo Documentation</a>. Hexo.<br>[3] Mu Bit. <a href="https://youtu.be/tEFKJeAtGqk?list=PL4IWl8w32SvV5p3TIXEDYUkH9ACtxkBdT" target="_blank" rel="external">How to set up Free Blog using Hexo JS on Github</a>. YouTube. 2016-10-01. <small>(en)</small><br>[4] 令狐葱. <a href="https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/" target="_blank" rel="external">手把手教你使用Hexo + Github Pages搭建个人独立博客</a>. 令狐葱@前端笔记. 2016-04-15. <small>(zh-CN)</small></p>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>很多高校因为购买的中国知网的数据库，所以在学校使用校园网的时候便能够免费下载中国知网上面的文献。但是如果您回家了，没有了校园网的IP，那么就无法免费下载知网上的文献。而华南师范大学则提供了VPN功能，通过VPN可以改变IP地址，使之变成华师校园网的IP地址，这样便可以免费下载知网文献了。</p>
+<p>以下将介绍如何安装并使用华师VPN。演示所用的电脑操作系统是64位的Windows 8.1，浏览器使用IE 11。我原本是想用Firefox作演示，但是出现了没有安装或启用Java virtual machine（JVM）的提示（<a href="https://ooo.0o0.ooo/2017/07/24/5974cb04b58aa.png" target="_blank" rel="external">如图所示</a>），我暂时解决不了，所以我使用兼容性较好的IE浏览器。如果您在操作过程中出现了问题，那么我也建议您换个浏览器试试，特别是换成IE试试。如果还是未能解决问题，可以与我联系，我可以代下载文献或者帮您看看出现了什么问题。</p>
+<h2 id="教程正式开始"><a href="#教程正式开始" class="headerlink" title="教程正式开始"></a>教程正式开始</h2><h3 id="step-1"><a href="#Step-1" class="headerlink" title="Step 1"></a>Step 1</h3><p>进入华师VPN的网站：<a href="https://ssl.scnu.edu.cn" target="_blank" rel="external">https://ssl.scnu.edu.cn</a></p>
+<p>由于学校的证书问题，该网站会被浏览器提示为不安全网站，此时只要点击「继续访问」或者将其设置为例外即可，如图所示：</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974cca50a091.png" alt=""></p>
+<h3 id="step-2登录并按照提示下载vpn客户端"><a href="#Step-2：登录并按照提示下载VPN客户端" class="headerlink" title="Step 2：登录并按照提示下载VPN客户端"></a>Step 2：登录并按照提示下载VPN客户端</h3><p>使用的帐号是统一身份认证的帐号，即用户名是学号。</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974cca56183e.png" alt=""></p>
+<p>登录会有安装客户端的提示，点击安装。如果没有出现提示，请点击「连接」，或者刷新几次页面。</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974cca5b9673.png" alt=""></p>
+<p>此时会弹出一个确认窗口，点击确认。</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974d2c08128b.jpg" alt=""></p>
+<p>这时浏览器开始进行VPN客户端的自动化下载和安装，耐心等待。</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974cca4462e9.png" alt=""></p>
+<p>安装完成后会弹出VPN客户端并自动连接，可以注意到系统任务栏托盘区有一个红色的字母「<font color="red">A</font>」图标，这就说明VPN已经安装并成功连接。不过由于华师的VPN不是全局代理，所以要免费下载中国知网上面的文献应该点击浏览器页面中的链接。</p>
+<p><img src="https://ooo.0o0.ooo/2017/07/24/5974cf1eb4c39.png" alt=""></p>
+<p>进入中国知网的网站后，先观察右上方是否有显示「<code>欢迎GDHNSF 华南师范大学 的朋友!</code>」，如果有，说明您成功了，可以在家免费下载中国知网的文献；如果显示的是「<code>您好，欢迎来到中国知网! 登录 | 注册</code>」，则说明你没有成功。要解决问题，请刷新几次，或者把网页关了再重新访问 <a href="https://ssl.scnu.edu.cn" target="_blank" rel="external">https://ssl.scnu.edu.cn</a> 试试。</p>
+<p><img src="https://i.loli.net/2017/07/29/597cad77d0b61.png" alt=""></p>
 
                     
                     <!-- Tags Bottom -->
                     
                         <div class="tags-container-bottom">
-                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/zh-CN/">#zh-CN</a>
                         </div>
                     
 
