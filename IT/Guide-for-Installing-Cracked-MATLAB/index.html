@@ -10,7 +10,10 @@
 
     <!--Description-->
     
-        <meta name="description" content="UI fonts will change when you change your display language of your OS. As I know, in Windows 8.1, Chinese (China) uses Microsoft YaHei UI, Chinese (Ta">
+        <meta name="description" content="先简略写个大概教程，后期再修缮措辞。
+
+下载及解压目前最新版本的MATLAB是R2017b，可以通过磁力链进行下载：
+magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&amp;amp;dn=MATLAB%20R2017b%20%5bPC">
     
 
     <!--Author-->
@@ -20,7 +23,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="A Fail Experience to Change The Default UI Fonts of Windows 8.1"/>
+        <meta property="og:title" content="破解版MATLAB安装教程"/>
     
 
     <!--Open Graph Description-->
@@ -42,7 +45,7 @@
 
     <!-- Title -->
     
-    <title>A Fail Experience to Change The Default UI Fonts of Windows 8.1 - dqwyy&#39;s blog</title>
+    <title>破解版MATLAB安装教程 - dqwyy&#39;s blog</title>
 
     <!-- Tachyons Core CSS -->
     <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
@@ -115,14 +118,14 @@
     <!-- Title -->
     <div class="w-100 mw8 center vh-40 dt">
         <div class="dtc v-mid white">
-            <h1 class="f1-l f2-m tc tc-m tl-ns">A Fail Experience to Change The Default UI Fonts of Windows 8.1</h1>
-            <p class="f4 fw3 pab-100px tc tc-m tl-ns">August 10th, 2017</p>
+            <h1 class="f1-l f2-m tc tc-m tl-ns">破解版MATLAB安装教程</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">March 5th, 2018</p>
         </div>
     </div>
 
     <!-- Icon -->
     <div class="relative w-100 mw8 center white dn dn-m db-ns">
-        <i class="header-icon fa fa-font"></i>
+        <i class="header-icon fa fa-file-text-o"></i>
     </div>
 </div>
 
@@ -136,27 +139,44 @@
                     
                         <div class="tags-container-vertical">
                             <div class="tags-sub-container">
-                                <a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                                <a class="fw3 ph1 dib" href="/tags/zh-CN/">#zh-CN</a>
                             </div>
                         </div>
                     
 
                     <!-- Main Post Content -->
-                    <p>UI fonts will change when you change your display language of your OS. As I know, in Windows 8.1, Chinese (China) uses Microsoft YaHei UI, Chinese (Taiwan) uses Microsoft JhengHei UI and English uses Segoe UI. Now the display language of my OS is English (United States), whoes UI font is Segoe UI. Han Characters are displayed as Mainland China style instead of Taiwan style. So I would like to change to UI font to Microsoft JhengHei UI. By searching solutions on the internet, I was recommended to modify the Registry by creating a <code>.reg</code> file reads:</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div></pre></td><td class="code"><pre><div class="line">Windows Registry Editor Version 5.00</div><div class="line"></div><div class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]</div><div class="line">&quot;Segoe UI (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Bold (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Bold Italic (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Italic (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Light (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Semibold (TrueType)&quot;=&quot;&quot;</div><div class="line">&quot;Segoe UI Symbol (TrueType)&quot;=&quot;&quot;</div><div class="line"></div><div class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</div><div class="line"></div><div class="line">&quot;Segoe UI&quot;=&quot;Microsoft JhengHei UI&quot;</div></pre></td></tr></table></figure>
-<p>I launched this Registry file and then restart my computer. Then I realised that I didn’t succeed. As the screenshots below shows, some became SimSun, some became Japanese style font, some became tofu.</p>
-<p><img src="https://i.loli.net/2017/08/12/598e9d1cbbd8b.png" alt="" title="SimSun"></p>
-<p><img src="https://i.loli.net/2017/08/12/598e9d1c09fff.png" alt="" title="tofu"></p>
-<p><img src="https://i.loli.net/2017/08/12/598e9d1dd7309.png" alt="" title="Japanese style font"></p>
-<p>Therefore, I had got to restore the awful UI fonts by another Registry file.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">Windows Registry Editor Version 5.00</div><div class="line"></div><div class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts]</div><div class="line">&quot;Segoe UI (TrueType)&quot;=&quot;segoeui.ttf&quot;</div><div class="line">&quot;Segoe UI Black (TrueType)&quot;=&quot;seguibl.ttf&quot;</div><div class="line">&quot;Segoe UI Black Italic (TrueType)&quot;=&quot;seguibli.ttf&quot;</div><div class="line">&quot;Segoe UI Bold (TrueType)&quot;=&quot;segoeuib.ttf&quot;</div><div class="line">&quot;Segoe UI Bold Italic (TrueType)&quot;=&quot;segoeuiz.ttf&quot;</div><div class="line">&quot;Segoe UI Emoji (TrueType)&quot;=&quot;seguiemj.ttf&quot;</div><div class="line">&quot;Segoe UI Historic (TrueType)&quot;=&quot;seguihis.ttf&quot;</div><div class="line">&quot;Segoe UI Italic (TrueType)&quot;=&quot;segoeuii.ttf&quot;</div><div class="line">&quot;Segoe UI Light (TrueType)&quot;=&quot;segoeuil.ttf&quot;</div><div class="line">&quot;Segoe UI Light Italic (TrueType)&quot;=&quot;seguili.ttf&quot;</div><div class="line">&quot;Segoe UI Semibold (TrueType)&quot;=&quot;seguisb.ttf&quot;</div><div class="line">&quot;Segoe UI Semibold Italic (TrueType)&quot;=&quot;seguisbi.ttf&quot;</div><div class="line">&quot;Segoe UI Semilight (TrueType)&quot;=&quot;segoeuisl.ttf&quot;</div><div class="line">&quot;Segoe UI Semilight Italic (TrueType)&quot;=&quot;seguisli.ttf&quot;</div><div class="line">&quot;Segoe UI Symbol (TrueType)&quot;=&quot;seguisym.ttf&quot;</div><div class="line">&quot;Segoe MDL2 Assets (TrueType)&quot;=&quot;segmdl2.ttf&quot;</div><div class="line">&quot;Segoe Print (TrueType)&quot;=&quot;segoepr.ttf&quot;</div><div class="line">&quot;Segoe Print Bold (TrueType)&quot;=&quot;segoeprb.ttf&quot;</div><div class="line">&quot;Segoe Script (TrueType)&quot;=&quot;segoesc.ttf&quot;</div><div class="line">&quot;Segoe Script Bold (TrueType)&quot;=&quot;segoescb.ttf&quot;</div><div class="line"></div><div class="line">[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\FontSubstitutes]</div><div class="line"></div><div class="line">&quot;Segoe UI&quot;=-</div></pre></td></tr></table></figure>
-<p>I would be appreciated if someone could help me to change the UI fonts of Windows 8.1.</p>
+                    <blockquote>
+<p>先简略写个大概教程，后期再修缮措辞。</p>
+</blockquote>
+<h2 id="下载及解压"><a href="#下载及解压" class="headerlink" title="下载及解压"></a>下载及解压</h2><p>目前最新版本的MATLAB是R2017b，可以通过磁力链进行下载：</p>
+<p>magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&amp;dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&amp;tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&amp;tr=udp%3a%2f%2fzer0day.ch%3a1337&amp;tr=udp%3a%2f%2fopen.demonii.com%3a1337&amp;tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&amp;tr=udp%3a%2f%2fexodus.desync.com%3a6969)。</p>
+<p>如果电脑有迅雷之类的下载器的话，直接点击链接就能跳出下载界面了。下载后是个压缩包，大小为11.2GB，占空间较大，请事先确保有足够的硬盘空间。下载后进行解压，解压后的文件目录如下图所示。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c45951dc.png" alt=""></p>
+<h2 id="安装及破解"><a href="#安装及破解" class="headerlink" title="安装及破解"></a>安装及破解</h2><p>然后双击Setup.exe进行安装。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c459c301.png" alt=""></p>
+<p>选择第二个选项以使用安装密钥。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c459cd9f.png" alt=""></p>
+<p>然后填入密钥：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">09806-07443-53955-64350-21751-41297</div></pre></td></tr></table></figure></p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c459b579.png" alt=""></p>
+<p>然后这个是选择安装目录，默认是C盘，我个人习惯是装在D盘，你们随意，但要确保有足够的空间，保险起见留个至少15GB的空间吧。</p>
+<p>点下一步后会让你选择安装什么组件，如果你硬盘空间够大的话，可以保持默认的全选。不想全选的话就只选那个MATLAB 9.3吧，只选那个的话就只会占用2GB多的空间，不过也会少一些功能，具体少什么功能我暂时没测试过，反正我暂时能用就是了。</p>
+<p>再点击下一步后就是安装完成了。然后打开安装好的MATLAB，它会提示激活。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c46011eb.png" alt=""></p>
+<p>选第二个选项，然后点下一步，然后就选择激活证书的目录。激活证书在一开始你下载后解压的那个文件夹里。点击<code>Browse...</code>，找到之前那个文件夹里面的<code>- crack &amp; instructions -</code>文件夹，选择<code>license_standalone.lic</code>这个文件。如图所示。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c46dc982.png" alt=""></p>
+<p>然后点下一步就会提示激活成功了。</p>
+<h2 id="重要的最后一步"><a href="#重要的最后一步" class="headerlink" title="重要的最后一步"></a>重要的最后一步</h2><p>虽然提示激活成功，<strong>但你还需要做下面这一步</strong>。</p>
+<p>找到一开始下载后解压的那个文件夹，然后<code>- crack &amp; instructions -</code>→<code>R2017b</code>→<code>bin</code>→<code>win64</code>，找到<code>netapi32.dll</code>这个文件，把它复制粘贴到软件的安装目录下。如果你之前按照默认目录的话，那么它就位于<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">C:\Program Files\MATLAB\R2017b\bin\win64</div></pre></td></tr></table></figure></p>
+<p>把那个文件粘贴进去。如图所示。</p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c4596f28.png" alt=""></p>
+<p><img src="https://i.loli.net/2018/03/06/5a9d6c46d9eda.png" alt=""></p>
+<h2 id="完成"><a href="#完成" class="headerlink" title="完成"></a>完成</h2><p>嗯，这样基本上就完成了，再次打开MATLAB应该就可以用了，至少在我的电脑上是亲测成功的。本教程仅适用于从我给出的那个磁力链所下载的MATLAB，其他地方下载的往往不适用。不过从其他地方下载的，里面一般也会有说明的，按照说明做估计也能成功。</p>
 
                     
                     <!-- Tags Bottom -->
                     
                         <div class="tags-container-bottom">
-                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/zh-CN/">#zh-CN</a>
                         </div>
                     
 
