@@ -5,18 +5,18 @@ categories:
 tags:
   - zh-CN
 date: 2018-03-05 23:44:13
-icon:
+icon: download
 ---
 > 先简略写个大概教程，后期再修缮措辞。
 
 ## 下载及解压
-目前最新版本的MATLAB是R2017b，可以通过磁力链进行下载：
+目前最新版本的MATLAB是R2017b，可以通过磁力链进行**[[下载]](magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fzer0day.ch%3a1337&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969)**：
 
 ```
 magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fzer0day.ch%3a1337&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969
 ```
 
-如果电脑有迅雷之类的下载器的话，新建下载任务，把磁力链粘贴进去就能下载了。下载后是个压缩包，大小为11.2GB，占空间较大，请事先确保有足够的硬盘空间。下载后进行解压，解压后的文件目录如下图所示。
+如果电脑有迅雷之类的下载器的话，点击下载链接便能自动跳出下载界面了，或者也可以新建下载任务，把磁力链粘贴进去下载。下载后是个压缩包，大小为11.2GB，占空间较大，请事先确保有足够的硬盘空间。下载后进行解压，解压后的文件目录如下图所示。
 
 ![](https://i.loli.net/2018/03/06/5a9d6c45951dc.png)
 
@@ -51,6 +51,7 @@ magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%
 然后点下一步就会提示激活成功了。
 
 ## 重要的最后一步
+
 虽然提示激活成功，**但你还需要做下面这一步**。
 
 找到一开始下载后解压的那个文件夹，然后`- crack & instructions -`→`R2017b`→`bin`→`win64`，找到`netapi32.dll`这个文件，把它复制粘贴到软件的安装目录下。如果你之前按照默认目录的话，那么它就位于
