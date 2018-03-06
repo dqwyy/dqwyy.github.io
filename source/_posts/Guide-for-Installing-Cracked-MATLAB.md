@@ -5,7 +5,7 @@ categories:
 tags:
   - zh-CN
 date: 2018-03-05 23:44:13
-icon: download
+icon: fa-download
 ---
 > 先简略写个大概教程，后期再修缮措辞。
 
