@@ -10,7 +10,7 @@ icon: fa-download
 > 先简略写个大概教程，后期再修缮措辞。
 
 ## 下载及解压
-目前最新版本的MATLAB是R2017b，可以通过磁力链进行**[[下载]](magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fzer0day.ch%3a1337&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969)**：
+目前最新版本的MATLAB是R2017b，可以通过磁力链进行**[【下载】](magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fzer0day.ch%3a1337&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969)**：
 
 ```
 magnet:?xt=urn:btih:1b2aaaa47a15bd8ca24844093547da2327b21af7&dn=MATLAB%20R2017b%20%5bPC%5d%20%5bx64%5d.zip&tr=udp%3a%2f%2ftracker.leechers-paradise.org%3a6969&tr=udp%3a%2f%2fzer0day.ch%3a1337&tr=udp%3a%2f%2fopen.demonii.com%3a1337&tr=udp%3a%2f%2ftracker.coppersurfer.tk%3a6969&tr=udp%3a%2f%2fexodus.desync.com%3a6969
