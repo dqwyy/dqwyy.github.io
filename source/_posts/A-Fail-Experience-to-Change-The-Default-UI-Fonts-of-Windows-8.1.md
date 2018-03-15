@@ -7,7 +7,7 @@ tags:
 date: 2017-08-10 22:36:08
 icon: fa-font
 ---
-UI fonts will change when you change your display language of your OS. As I know, in Windows 8.1, Chinese (China) uses Microsoft YaHei UI, Chinese (Taiwan) uses Microsoft JhengHei UI and English uses Segoe UI. Now the display language of my OS is English (United States), whoes UI font is Segoe UI. Han Characters are displayed as Mainland China style instead of Taiwan style. So I would like to change to UI font to Microsoft JhengHei UI. By searching solutions on the internet, I was recommended to modify the Registry by creating a `.reg` file reads:
+UI fonts will change when you change your display language of your OS. As I know, in Windows 8.1, Chinese (China) uses Microsoft YaHei UI, Chinese (Taiwan) uses Microsoft JhengHei UI and English uses Segoe UI. Now the display language of my OS is English (United States), whose UI font is Segoe UI. Han Characters are displayed as Mainland China style instead of Taiwan style. So I would like to change to UI font to Microsoft JhengHei UI. By searching solutions on the internet, I was recommended to modify the Registry by creating a `.reg` file reads:
 
 ```reg
 Windows Registry Editor Version 5.00
