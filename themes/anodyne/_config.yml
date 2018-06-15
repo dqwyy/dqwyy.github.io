@@ -2,7 +2,7 @@
 logo_image_source: https://i.loli.net/2017/07/28/597b38a758396.jpg
 
 # Index Page
-index_banner_text: Welcome to dqwyy's blog.
+index_banner_text: dqwyy's blog.
 index_banner_text_secondary: 
 index_font_awesome_icon_css: fa-flask
 
@@ -49,4 +49,4 @@ social_platforms:
 #    fa_icon: fa-rss
 
 # Footer about
-footer_about: "<big><big>By dqwyy<br>Articles are released under <a class=\"link dim white\" target=_blank href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA 4.0</a></big></big><br><br>Powered by <a class=\"link dim white\" target=_blank href=\"https://hexo.io/\">Hexo</a> & <a class=\"link dim white\" target=_blank href=\"https://pages.github.com/\">GitHub Pages</a> | Theme: <a class=\"link dim white\" target=_blank href=\"https://github.com/klugjo/hexo-theme-anodyne\">anodyne</a> by <a class=\"link dim white\" target=_blank href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
+footer_about: "<big><big>By dqwyy<br>Unless otherwise specified, contents are licensed under <a class=\"link dim white\" target=_blank href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC-BY-SA 4.0</a></big></big><br><br>Powered by <a class=\"link dim white\" target=_blank href=\"https://hexo.io/\">Hexo</a> & <a class=\"link dim white\" target=_blank href=\"https://pages.github.com/\">GitHub Pages</a> | Theme: <a class=\"link dim white\" target=_blank href=\"https://github.com/klugjo/hexo-theme-anodyne\">anodyne</a> by <a class=\"link dim white\" target=_blank href=\"http://www.codeblocq.com/\">Jonathan Klughertz</a>"
