@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="PrologueI’m using Microsoft Windows 8.1 as my operating system. Several days ago, I was told by Windows Defender that a malware was detected and remov">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="dqwyy">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="The Bitcoin Miner Trojan zed.exe and alpha.exe"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="dqwyy&#39;s blog"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>The Bitcoin Miner Trojan zed.exe and alpha.exe - dqwyy&#39;s blog</title>
+
+    <!-- Tachyons Core CSS -->
+    <link rel="stylesheet" href="//unpkg.com/tachyons/css/tachyons.min.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-103287316-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+<!-- Main Content -->
+<!-- Banner -->
+<!-- Banner -->
+<div class="w-100 bg-1 ph5-ns ph3 text-light">
+    
+    <nav class="db dt-l w-100 mw8 center border-box pv3">
+        <a class="db dtc-l v-mid link dim w-100 w-25-l tc tl-l mb2 mb0-l white" href="/" title="dqwyy's blog">
+            <img src="https://i.loli.net/2017/07/28/597b38a758396.jpg" class="dib h3" alt="dqwyy's blog">
+        </a>
+        <div class="db dtc-l v-mid w-100 w-75-l tc tr-l">
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/" 
+                    title="Home">
+                    Home
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/archives" 
+                    title="Archives">
+                    Archives
+                </a>
+            
+                <a class="link dim f6 f5-l dib mr3 mr4-l white" 
+                    href="/about.html" 
+                    title="About">
+                    About
+                </a>
+            
+        </div>
+    </nav>
+
+    <!-- Title -->
+    <div class="w-100 mw8 center vh-40 dt">
+        <div class="dtc v-mid white">
+            <h1 class="f1-l f2-m tc tc-m tl-ns">The Bitcoin Miner Trojan zed.exe and alpha.exe</h1>
+            <p class="f4 fw3 pab-100px tc tc-m tl-ns">July 27th, 2018</p>
+        </div>
+    </div>
+
+    <!-- Icon -->
+    <div class="relative w-100 mw8 center white dn dn-m db-ns">
+        <i class="header-icon fa fa-file-text-o"></i>
+    </div>
+</div>
+
+<!-- Content -->
+<div class="w-100 ph2 ph4-m ph5-l mv5 mv6-l">
+    <div class="content">
+        <div class="mw8 center">
+            <div class="cf">
+                <div class="fl w-100 w-70-l mw7 left fw3 lh-copy pr4-ns pr0-m post-content">
+                    <!-- Tags Vertical -->
+                    
+                        <div class="tags-container-vertical">
+                            <div class="tags-sub-container">
+                                <a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                            </div>
+                        </div>
+                    
+
+                    <!-- Main Post Content -->
+                    <h2 id="prologue"><a href="#Prologue" class="headerlink" title="Prologue"></a>Prologue</h2><p>I’m using Microsoft Windows 8.1 as my operating system. Several days ago, I was told by Windows Defender that a malware was detected and removed. I thought it was KMSpico, which can activate my OS and Microsoft Office illegally, that is removed. This kind of things happened a lot before but I didn’t think it would happen again this time because I had add KMSpico to the exception list of Window Defender so that it would be trusted. Then I checked the detected and quarantined item named <strong>Trojan:Win32/CoinMner</strong> with details that:</p>
+<blockquote>
+<p><strong>Category:</strong> Trojan<br><strong>Description:</strong> This program is dangerous and executes commands from an attacker.<br><strong>Recommended action:</strong> Remove this software immediately.<br><strong>Items:</strong><br>file:C:\Users\dqwyy\AppData\Local\Temp\nvd\zed.exe<br><a href="https://www.microsoft.com/en-us/wdsi/threats/malware-encyclopedia-description?name=Trojan%3aWin32%2fCoinMiner&amp;threatid=2147672528&amp;enterprise=0" target="_blank" rel="external">Get more information about this item online.</a></p>
+</blockquote>
+<p><img src="https://i.loli.net/2018/07/27/5b5b210b0a11e.png" alt="Detected by Windows Defender"></p>
+<h2 id="symptom"><a href="#Symptom" class="headerlink" title="Symptom"></a>Symptom</h2><p>This trojan/malware/virus surprises and annoys me a lot and reminds me of the symptom of my computer. Everytime I am away form my laptop and leave it on, the CPU fan will spin very fast and be noisy as if it’s running many programs. I would never realize that my CUP even GPU were used for Bitcoin mining (or other blockchain digital currency) by trojan if it didn’t detected by Windows Defender. And everytime I move my mouse or press any key on keyboard, the CPU fan turns to silent. Here is a thread written in Traditional Chinese about this symptom: <em><a href="https://www.mobile01.com/topicdetail.php?f=508&amp;t=5266362" target="_blank" rel="external">zed.exe是什麼東西？</a></em> (<em>What is zed.exe?</em>)</p>
+<p>So we can know that this trojan is very tricky. It begins to use my CUP for Bitcoin mining when I am away but it kills the process immediately when I am back so that I can’t find it at Task Manager. In order to prove the conjecture, I ran such a bat file and left my laptop alone and waited.</p>
+<figure class="highlight bat"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="built_in">title</span> Monitor zed.exe and alpha.exe process</div><div class="line">:loop</div><div class="line"><span class="built_in">echo</span> <span class="variable">%TIME%</span> &gt;&gt; MonitorLog.txt</div><div class="line">tasklist /FI "IMAGENAME eq zed.exe" &gt;&gt; MonitorLog.txt</div><div class="line">tasklist /FI "IMAGENAME eq alpha.exe" &gt;&gt; MonitorLog.txt</div><div class="line">choice /T <span class="number">60</span> /D Y</div><div class="line"><span class="keyword">goto</span> loop</div></pre></td></tr></table></figure>
+<p>About ten minutes later, the symptom occured. I waited for more ten minutes and then moved my mouse and checked the log file that was generated by the bat file and got:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div><div class="line">57</div><div class="line">58</div><div class="line">59</div><div class="line">60</div><div class="line">61</div><div class="line">62</div><div class="line">63</div><div class="line">64</div><div class="line">65</div><div class="line">66</div><div class="line">67</div><div class="line">68</div><div class="line">69</div><div class="line">70</div><div class="line">71</div><div class="line">72</div><div class="line">73</div><div class="line">74</div><div class="line">75</div><div class="line">76</div><div class="line">77</div><div class="line">78</div><div class="line">79</div><div class="line">80</div><div class="line">81</div><div class="line">82</div><div class="line">83</div><div class="line">84</div><div class="line">85</div><div class="line">86</div><div class="line">87</div><div class="line">88</div><div class="line">89</div><div class="line">90</div></pre></td><td class="code"><pre><div class="line">18:33:38.89 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:34:41.92 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:35:42.10 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:36:42.30 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:37:44.66 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:38:44.86 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:39:45.05 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:40:47.27 </div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:41:47.46 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,312,572 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:42:47.78 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,315,408 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:43:52.57 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,316,156 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:44:58.01 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,315,604 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:45:58.30 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,316,380 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:47:03.03 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,315,744 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:48:07.36 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,316,536 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:49:07.69 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,316,076 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:50:11.70 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,315,664 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:51:17.30 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,316,284 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div><div class="line">18:52:17.63 </div><div class="line"></div><div class="line">Image Name                     PID Session Name        Session#    Mem Usage</div><div class="line">========================= ======== ================ =========== ============</div><div class="line">zed.exe                       3436 Console                    1  1,315,940 K</div><div class="line">INFO: No tasks are running which match the specified criteria.</div></pre></td></tr></table></figure>
+<p>Therefore, the conjecture is true. According to log, zed.exe will be launched when you are away but alpha.exe will not. So you may want to know why I mention alpha.exe since it isn’t detected by Windows Defender. To be honest, I didn’t know about alpha.exe before I read this thread on Bleeping Computer: <em><a href="https://www.bleepingcomputer.com/forums/t/657057/infected-by-the-zedexe-malwarevirus/" target="_blank" rel="external">Infected by the “zed.exe” malware/virus</a></em></p>
+<blockquote>
+<p>…<br>Here is the Mbar-log (it seem that he also found a trojan, “alpha.exe”)<br>…</p>
+</blockquote>
+<p>So alpha.exe is located at <code>%TEMP%\ati</code>, zed.exe is located at <code>%TEMP%\nvd</code>. Then I try running alpha.exe and zed.exe by myself.</p>
+<p>For <code>%TEMP%\ati\alpha.exe</code>, I got a log file:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">15:55:32:469	9fc	args: </div><div class="line">15:55:32:474	9fc	</div><div class="line">15:55:32:481	9fc	赏屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯突</div><div class="line">15:55:32:490	9fc	?            Claymore&apos;s ZCash AMD GPU Miner v12.6               ?</div><div class="line">15:55:32:495	9fc	韧屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯屯图</div><div class="line">15:55:32:540	9fc	</div><div class="line">15:55:32:747	9fc	ZEC: No pools specified! Specify at least one valid pool in &quot;-zpool&quot; parameter.</div></pre></td></tr></table></figure>
+<p>For <code>%TEMP%\nvd\zed.exe</code>, I saw these on the cmd screen:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">        ==================== www.nicehash.com ====================</div><div class="line">                Equihash CPU&amp;GPU Miner for NiceHash v0.5c</div><div class="line">        Thanks to Zcash developers for providing base of the code.</div><div class="line">            Special thanks to tromp, xenoncat and djeZo for providing</div><div class="line">              optimized CPU and CUDA equihash solvers.</div><div class="line">        ==================== www.nicehash.com ====================</div><div class="line"></div><div class="line">Setting log level to 2</div><div class="line">[15:55:42][0x00000a84] Using SSE2: YES</div><div class="line">[15:55:42][0x00000a84] Using AVX: YES</div><div class="line">[15:55:42][0x00000a84] Using AVX2: YES</div><div class="line">[15:55:42][0x00001678] stratum | Starting miner</div><div class="line">[15:55:42][0x00001678] stratum | Connecting to stratum server equihash.eu.niceha</div><div class="line">sh.com:3357</div><div class="line">[15:55:43][0x00001678] stratum | Connected!</div><div class="line">[15:55:44][0x00001678] stratum | Subscribed to stratum server</div><div class="line">[15:55:44][0x00001678] miner | Extranonce is 6800002f24</div><div class="line">[15:55:45][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6</div><div class="line">gmePG</div><div class="line">[15:55:45][0x00001678] stratum | Target set to 0001e1e1e1e0000000000000000000000</div><div class="line">0000000000000000000000000000000</div><div class="line">[15:55:45][0x00001678] stratum | ZcashMiner::parseJob(): Invalid or unsupported</div><div class="line">block header version</div><div class="line">[15:55:45][0x00001678] stratum | Reconnecting in 3 seconds...</div><div class="line">[15:55:48][0x00001678] stratum | Connecting to stratum server equihash.eu.niceha</div><div class="line">sh.com:3357</div><div class="line">[15:55:48][0x00001678] stratum | Connected!</div><div class="line">[15:55:48][0x00001678] stratum | Subscribed to stratum server</div><div class="line">[15:55:48][0x00001678] miner | Extranonce is 7bc7c6f782</div><div class="line">[15:55:49][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6</div><div class="line">gmePG</div><div class="line">[15:55:50][0x00001678] stratum | Target set to 0001e1e1e1e0000000000000000000000</div><div class="line">0000000000000000000000000000000</div><div class="line">[15:55:50][0x00001678] stratum | Received new job #0000008f8160b3f0</div><div class="line">[15:55:53][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:03][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:14][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:24][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:34][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:37][0x00001678] stratum | Received new job #0000008f81614b9e</div><div class="line">[15:56:37][0x00001678] stratum | Received new job #0000008f816169ac</div><div class="line">[15:56:45][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:45][0x00001678] stratum | Received new job #0000008f8161dff2</div><div class="line">[15:56:55][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:56:57][0x00001678] stratum | Received new job #0000008f81623282</div><div class="line">[15:57:05][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div><div class="line">[15:57:16][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s</div></pre></td></tr></table></figure>
+<p>Obviously these two exe files are Bitcoin mining programs.</p>
+<h2 id="solutions"><a href="#Solutions" class="headerlink" title="Solutions"></a>Solutions</h2><p>I use no antivirus software but Windows Defender. In fact, Windows Defender does delete zed.exe for me. However, zed.exe will come back and begin to use my CUP for mining once I am away form my laptop. When I come back, zed.exe kills itself and Windows Defender detects and quarantine/delete it. Definitely, this is useless. I try to delete the whole folders <code>%TEMP%\ati</code> and <code>%TEMP%\nvd</code> but they come back again and again. Neither I nor Windows Defender manages to find the root of the trojan to remove it completely. THAT SUCKS.</p>
+<p>Later I had an idea after reading some related posts. I created blank text files and replaced the files in <code>%TEMP%\ati</code> and <code>%TEMP%\nvd</code> by renaming.</p>
+<p><img src="https://i.loli.net/2018/07/27/5b5b3aabb9027.png" alt="nvd before"></p>
+<p><img src="https://i.loli.net/2018/07/27/5b5b3aabb564e.png" alt="nvd after.png"></p>
+<p>Then I ran the bat file to monitor the processes again and left my laptop alone. One hour later I checked <a href="https://paste.ubuntu.com/p/RP4zww6F2c/" target="_blank" rel="external">the log</a> and it showed that the zed.exe didn’t come back. I also hope that it will never come back.</p>
+<p>Maybe you want to know how to remove the trojan completely. To be honest, so do I. Maybe you can refer to these thread on Bleeping Computer:</p>
+<ul>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/657057/infected-by-the-zedexe-malwarevirus/" target="_blank" rel="external">Infected by the “zed.exe” malware/virus</a></em></li>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/656501/zedexe-virusmalware-malwarebytes-detects-it-as-a-riskwarebitcoinminer/" target="_blank" rel="external">“zed.exe” virus/malware (malwarebytes detects it as a “RiskWare.BitcoinMiner”)</a></em></li>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/660808/infected-with-alphaexe-and-zedexe-bitcoin-miner/" target="_blank" rel="external">Infected with alpha.exe and zed.exe (Bitcoin Miner)</a></em></li>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/657184/bitcoin-miner/" target="_blank" rel="external">Bitcoin miner</a></em></li>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/658898/infected-with-bit-coin-miners/" target="_blank" rel="external">Infected with Bit Coin Miners</a></em></li>
+<li><em><a href="https://www.bleepingcomputer.com/forums/t/674076/zedexe-alphaexe-infection/" target="_blank" rel="external">zed.exe &amp; alpha.exe infection</a></em></li>
+</ul>
+<p>You can Google “zed.exe” for more informations and solutions, good luck.</p>
+<p>If you find better solutions, please feel free to tell me by leaving a comment under this article or contacting me directly. I also provide the trojan files for computer experts. I renamed the file name extensions to make them become a little safe and achived them as zip files.</p>
+<table>
+<thead>
+<tr>
+<th>Folder</th>
+<th>Mega Download Link</th>
+<th>Decryption Key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ati</td>
+<td><a href="https://mega.nz/#!QBl0SSTT" target="_blank" rel="external">https://mega.nz/#!QBl0SSTT</a></td>
+<td><code>!5RN52g4hVk2chGcd-U5gxFgU5hf7LN94LrkM5iACbAo</code></td>
+</tr>
+<tr>
+<td>nvd</td>
+<td><a href="https://mega.nz/#!pU9EQArL" target="_blank" rel="external">https://mega.nz/#!pU9EQArL</a></td>
+<td><code>!K-23DsK5wzYke8bKlprXacD6b7dnGePyA-8tQ_BJJt0</code></td>
+</tr>
+</tbody>
+</table>
+
+                    
+                    <!-- Tags Bottom -->
+                    
+                        <div class="tags-container-bottom">
+                            <i class="fa fa-tag pr3 text-main-color"></i><a class="fw3 ph1 dib" href="/tags/en/">#en</a>
+                        </div>
+                    
+
+                    <!-- Comments -->
+                    
+<div id="disqus_thread" class="mt5">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+
+
+
+                </div>
+                <div class="fl w-100 w-30-l center fw3 lh-copy pl4-ns tl black-50">
+                    
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 1: About -->
+                    <div class="mt5 mt0-l">
+    <article class="dt db-l mw8 mw8-m mw5-ns center ml0-l bg-white mv3">
+        <div class="dn dtc-m db-l v-mid tc pr4 pr0-l" style="min-width: 6rem;">
+            <img src="https://i.loli.net/2017/07/28/597b38a758396.jpg" class="mb4-l br-100 h3 w3 h4-l w4-l dib" title="dqwyy">
+        </div>
+        <div class="dtc db-l v-mid lh-copy measure center f6 black-50 tj">
+            Name: dqwyy<br>Location: South China Normal University,<br>Guangdong, P.R.China (🇨🇳)<br><a class="link dim white" href="/about.html">More detail...</a>
+        </div>
+    </article>
+</div>
+
+                    <hr class="dn-l mw4 black-50 mt5" />
+                    
+                    <!-- Widget 2: Categories -->
+                    
+                        <div class="mt5 tc tl-l">
+    <h3>Categories</h3>
+    
+        <p>
+            <a href="/categories/IT/">IT</a>
+        </p>
+    
+</div>
+
+
+                        <hr class="dn-l mw4 black-50 mt5" />
+                    
+
+                    <!-- Widget 3: Recent Posts -->
+                    <div class="mt5 tc tl-l">
+    <h3>Recent Posts</h3>
+    
+        <p>
+            <a href="/IT/The-Bitcoin-Miner-Trojan-zed-exe-and-alpha-exe/">The Bitcoin Miner Trojan zed.exe and alpha.exe</a>
+        </p>
+    
+        <p>
+            <a href="/IT/A-Fail-Experience-to-Change-The-Default-UI-Fonts-of-Windows-8.1/">A Fail Experience to Change The Default UI Fonts o</a>
+        </p>
+    
+        <p>
+            <a href="/Chemistry/A-Brief-Discussion-on-the-Names-and-Symbols-of-Chemical-Elements/">浅谈化学元素的名称及符号</a>
+        </p>
+    
+        <p>
+            <a href="/IT/Hello-World!-—-How I Built This Blog/">Hello World! — How I Built This Blog</a>
+        </p>
+    
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer -->
+<div class="bg-1 ph2 ph5-ns pv5">
+        <div class="mv8">
+            <div class="center tc">
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://zh.wikipedia.org/wiki/User:Dqwyy" target="_blank">
+                            <i class="fa fa-wikipedia-w"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://twitter.com/dqwyy1997" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="mailto:me@dqwyy.moe" target="_blank">
+                            <i class="fa fa-envelope"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://github.com/dqwyy" target="_blank">
+                            <i class="fa fa-github"></i>
+                        </a>
+                    </div>
+                
+                    <div class="dib mh3">
+                        <a class="f3 f2-ns white dim" href="https://www.quora.com/profile/Wang-Yang-Ying" target="_blank">
+                            <i class="fa fa-quora"></i>
+                        </a>
+                    </div>
+                
+            </div>
+            <div class="f6 f5-ns center tc white pt5 fw3">
+                <big><big>By dqwyy<br>Unless otherwise specified, contents are licensed under <a class="link dim white" target=_blank href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a></big></big><br><br>Powered by <a class="link dim white" target=_blank href="https://hexo.io/">Hexo</a> & <a class="link dim white" target=_blank href="https://pages.github.com/">GitHub Pages</a> | Theme: <a class="link dim white" target=_blank href="https://github.com/klugjo/hexo-theme-anodyne">anodyne</a> by <a class="link dim white" target=_blank href="http://www.codeblocq.com/">Jonathan Klughertz</a>
+            </div>
+        </div>
+    </div>
+
+<!-- After Footer -->
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'dqwyy';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+</body>
+
+</html>
