@@ -3,7 +3,7 @@ title: 浅谈化学元素的名称及符号
 categories:
   - Chemistry
 tags:
-  - zh-CN
+  - zh
 date: 2017-07-28 21:35:30
 icon: fa-flask
 ---
