@@ -165,27 +165,20 @@ Setting log level to 2
 [15:55:42][0x00000a84] Using AVX: YES
 [15:55:42][0x00000a84] Using AVX2: YES
 [15:55:42][0x00001678] stratum | Starting miner
-[15:55:42][0x00001678] stratum | Connecting to stratum server equihash.eu.niceha
-sh.com:3357
+[15:55:42][0x00001678] stratum | Connecting to stratum server equihash.eu.nicehash.com:3357
 [15:55:43][0x00001678] stratum | Connected!
 [15:55:44][0x00001678] stratum | Subscribed to stratum server
 [15:55:44][0x00001678] miner | Extranonce is 6800002f24
-[15:55:45][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6
-gmePG
-[15:55:45][0x00001678] stratum | Target set to 0001e1e1e1e0000000000000000000000
-0000000000000000000000000000000
-[15:55:45][0x00001678] stratum | ZcashMiner::parseJob(): Invalid or unsupported
-block header version
+[15:55:45][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6gmePG
+[15:55:45][0x00001678] stratum | Target set to 0001e1e1e1e00000000000000000000000000000000000000000000000000000
+[15:55:45][0x00001678] stratum | ZcashMiner::parseJob(): Invalid or unsupportedblock header version
 [15:55:45][0x00001678] stratum | Reconnecting in 3 seconds...
-[15:55:48][0x00001678] stratum | Connecting to stratum server equihash.eu.niceha
-sh.com:3357
+[15:55:48][0x00001678] stratum | Connecting to stratum server equihash.eu.nicehash.com:3357
 [15:55:48][0x00001678] stratum | Connected!
 [15:55:48][0x00001678] stratum | Subscribed to stratum server
 [15:55:48][0x00001678] miner | Extranonce is 7bc7c6f782
-[15:55:49][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6
-gmePG
-[15:55:50][0x00001678] stratum | Target set to 0001e1e1e1e0000000000000000000000
-0000000000000000000000000000000
+[15:55:49][0x00001678] stratum | Authorized worker 34HKWdzLxWBduUfJE9JxaFhoXnfC6gmePG
+[15:55:50][0x00001678] stratum | Target set to 0001e1e1e1e00000000000000000000000000000000000000000000000000000
 [15:55:50][0x00001678] stratum | Received new job #0000008f8160b3f0
 [15:55:53][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s
 [15:56:03][0x00000a84] Speed [15 sec]: 0 I/s, 0 Sols/s
