@@ -25,7 +25,7 @@ This trojan/malware/virus surprises and annoys me a lot and reminds me of the sy
 So we can know that this trojan is very tricky. It begins to use my CUP for Bitcoin mining when I am away but it kills the process immediately when I am back so that I can't find it at Task Manager. In order to prove the conjecture, I ran such a bat file and left my laptop alone and waited.
 
 ```bat
-title Monitor zed.exe and alpha.exe process
+title zed.exe and alpha.exe Process Monitor
 :loop
 echo %TIME% >> MonitorLog.txt
 tasklist /FI "IMAGENAME eq zed.exe" >> MonitorLog.txt
